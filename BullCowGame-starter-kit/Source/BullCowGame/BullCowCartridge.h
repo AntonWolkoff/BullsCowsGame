@@ -22,6 +22,7 @@ class BULLCOWGAME_API UBullCowCartridge : public UCartridge
 	int32 Lives;
 	bool bGameOver;
 	void EndGame();
+	bool IsIsogram(FString Input);
 	void PrintWelcome();
 	virtual void CheckInput(FString Input);
 };
